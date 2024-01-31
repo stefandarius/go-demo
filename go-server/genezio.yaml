@@ -1,0 +1,7 @@
+name: go-server
+region: eu-central-1
+classes:
+  - path: ./hello/hello.go
+    type: jsonrpc
+  - path: ./tasks/tasks.go
+    type: jsonrpc
